@@ -37,7 +37,7 @@ public class Client {
 
      @Override
      public String toString() {
-        return name + product.toString();
+        return name +", "+ product.toString();
      }
 
      

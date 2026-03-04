@@ -1,6 +1,8 @@
 package model.entity;
 
-public class Product {
+import model.interfaces.InterfaceHas;
+
+public class Product implements InterfaceHas {
     private String name;
 	private Double price;
 	
