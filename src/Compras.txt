@@ -23,3 +23,5 @@ Maria, Chocolate,20.0
 Luisa, Milk,5.0
 Ana, Rice,10.0
 Luisa, Cake,40.0
+Luisa, Milk,5.1
+Luisa, Milk,5.1

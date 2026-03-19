@@ -42,7 +42,7 @@ public class map {
 
         ClientFile clientFile=new ClientFile();
         clientFile.Save(clients, path);
-        entitysService2.sort(new EntitysService<>(Product::getName));
+        entitysService2.sort(Comparator.comparing(Product::getName));
         
 
         try (BufferedReader br= new BufferedReader(new FileReader(path))){
